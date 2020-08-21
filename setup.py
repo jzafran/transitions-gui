@@ -21,7 +21,7 @@ setup(
     packages=find_packages(exclude=['tests', 'test_*']),
     include_package_data=True,
     package_data={'transitions_gui': ['templates/*', 'static/css/*', 'static/js/*', 'static/img/*']},
-    install_require=['tornado>=5.0', 'transitions>=0.7.0'],
+    install_requires=['tornado>=5.0', 'transitions>=0.7.0'],
     extras_require={},
     tests_require=['nose'],
     license='MIT',
